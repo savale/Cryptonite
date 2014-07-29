@@ -385,11 +385,6 @@ if test x$use_upnp != xno; then
   )
 fi
 
-AC_CHECK_HEADER([gmp.h],,AC_MSG_ERROR(gmp headers missing))
-AC_CHECK_HEADER([gmpxx.h],,AC_MSG_ERROR(gmpxx headers missing))
-AC_CHECK_LIB(gmp,main,,AC_MSG_ERROR([gmp library not found. Please install it.]),[])
-AC_CHECK_LIB(gmpxx,main,,AC_MSG_ERROR([gmpxx library not found. Please install gmp with gmpxx option enabled.]),[])
-
 dnl Check for boost libs
 AX_BOOST_BASE
 AX_BOOST_SYSTEM
