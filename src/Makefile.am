@@ -34,7 +34,6 @@ BITCOIN_CORE_H = \
   checkpoints.h \
   checkqueue.h \
   clientversion.h \
-  coins.h \
   compat.h \
   core.h \
   crypter.h \
